@@ -6,7 +6,7 @@ A Dataverse-backed model-driven application that manages the full lifecycle of P
 
 ## Current state
 
-Design phase. The workspace is bootstrapped and design documents are in progress under `docs/`. No Dataverse solution has been built yet.
+Design phase. The workspace is bootstrapped and design documents are in progress under `docs/`. The requestor intake has been simplified to a 10-item request (ADR 0004). No Dataverse solution has been built yet.
 
 - Repo: https://github.com/DevonAleshireMSFT/dow-pwr-plat-gov-app
 - Project board: https://github.com/users/DevonAleshireMSFT/projects/9
@@ -27,6 +27,7 @@ Design phase. The workspace is bootstrapped and design documents are in progress
 12. **No personal-account automation.** Production automation runs under service principals or service accounts.
 13. **Documents live in SharePoint.** Dataverse stores metadata, status, relationships, and links to supporting evidence.
 14. **Absence of findings is not compliance.** Never state an environment is compliant solely because no open finding exists.
+15. **Simple upfront request.** The requestor answers 10 plain-language items (program or command, justification, business owner, technical owner, data types, user population, capabilities, external systems, workload type, duration). Classification, licensing, connector risk, security requirements, authorization boundary, and support planning are derived by rules or collected during intake and review. "I don't know" answers never block submission. Do not put governance-model questions on the requestor form. See `docs/03a-requestor-intake.md` and ADR 0004.
 
 ## Known Gotchas
 
