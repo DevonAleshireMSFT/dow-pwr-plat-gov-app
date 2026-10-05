@@ -6,7 +6,7 @@ A Dataverse-backed model-driven application that manages the full lifecycle of P
 
 ## Current state
 
-Design phase. The workspace is bootstrapped and design documents are in progress under `docs/`. The requestor intake has been simplified to a 10-item request (ADR 0004). No Dataverse solution has been built yet.
+Design phase. The design documents in `docs/` (all 27 deliverables) are drafted and pending review. The backlog is in `tools/backlog.js` and mirrored as GitHub issues on the project board. The requestor intake has been simplified to a 10-item request (ADR 0004). No Dataverse solution has been built yet.
 
 - Repo: https://github.com/DevonAleshireMSFT/dow-pwr-plat-gov-app
 - Project board: https://github.com/users/DevonAleshireMSFT/projects/9
