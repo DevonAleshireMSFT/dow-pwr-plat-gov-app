@@ -1,0 +1,26 @@
+# Build output
+out/
+bin/
+obj/
+*.zip
+*.nupkg
+
+# Power Platform CLI / local auth
+.pac/
+*.pfx
+*.cer
+*.pem
+*.key
+.env
+.env.*
+*.user
+settings.local.json
+
+# Node / tooling
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
